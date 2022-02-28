@@ -1,0 +1,126 @@
+
+  .img-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .pickChat {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    padding-top: 200px;
+  }
+  .profile-wrapper {
+    width: 100%;
+    background-color: #e6e9f7;
+    display: flex;
+    margin-top: 23px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  .user-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .incoming-msg {
+    padding: 20px 10px 0px 20px;
+    width: 70%;
+  }
+  .incomimg-text {
+    padding: 15px;
+    background-color: #e5e5e5;
+    border-radius: 10px 10px 10px 0px;
+  }
+  .incoming-img-wrapper {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  }
+  .incoming-img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+  }
+  
+  .message-area {
+    width: 100%;
+    height: calc(100vh - 185px);
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+  }
+  
+  .message-area::-webkit-scrollbar {
+    /* WebKit */
+    width: 0;
+    height: 0;
+  }
+  .incoming-time {
+    font-weight: 500px;
+    color: gray;
+    font-size: 12px;
+  }
+  .outgoing-msg-wrapper {
+    width: 70%;
+    padding: 0px 20px 0px 10px;
+  }
+  .outgoing-text {
+    padding: 15px;
+    background-color: #e6e9f7;
+    border-radius: 10px 10px 0px 10px;
+  }
+  
+  .send-area {
+    width: 100%;
+    min-height: 59px;
+    padding: 0px 20px;
+  }
+  .send-wrapper {
+    height: 45px;
+    width: 100%;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0px 0px 20px gainsboro;
+    display: flex;
+    align-items: center;
+    padding: 0px 25px;
+    justify-content: space-between;
+  }
+  .send-text {
+    width: 85%;
+    border: none;
+  }
+  .send-text:focus,
+  .send-text:active {
+    border: none;
+    outline: none;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .profile-wrapper {
+        margin-top: 5px;
+        box-shadow: 0px 0px 20px gainsboro;
+      }
+      .pickChat {
+        display: none;
+      }
+      .send-text {
+        width: 75%;
+        border: none;
+      }
+      .send-area {
+        width: 100%;
+        min-height: 59px;
+        padding: 0px 0px;
+      }
+      .message-area {
+        height: calc(100vh - 250px);
+      }
+  }
+  

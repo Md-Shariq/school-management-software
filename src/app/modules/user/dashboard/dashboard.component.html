@@ -1,0 +1,84 @@
+<section class="section">
+    <div class="row">
+        <div class="col-md-6">
+        </div>
+    </div>
+    <div class="">
+        <div class="row">
+            <div class="col-md-3 left-box-wrapper">
+                <div class="btn-wrapper">
+                    <!-- <button class=" btn left-box-btn white fw-500 mb-3"> <img src="assets/web/blogbtn.svg" alt=""
+                            class=" btn-img">
+                        Blog</button> -->
+                    <button class=" btn left-box-btn white fw-500  mb-3" routerLink="/user/help"> <img src="assets/web/helpbtn.svg" alt=""
+                            class="btn-img">
+                        Help</button>
+                    <button class=" btn left-box-btn white fw-500 " routerLink="/user/account-setting"> <img src="assets/web/settingbtn.svg" alt=""
+                            class="btn-img">
+                        Settings</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="pt-3">
+                    <div class="dropdown">
+                        <button class="btn  dropdown-toggle dropdown-buttom" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Recently joined
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Recently joined</a></li>
+                            <li><a class="dropdown-item" href="#">Recommended for you</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card-wrapper" *ngFor="let x of [1,2,3,4,5]">
+                    <div class="d-flex align-items-start justify-content-between card-upper">
+                        <div class="d-flex">
+                            <div class="card-img">
+                                <img src="assets/web/area.svg" alt="" class="avatar-img">
+                            </div>
+                            <div>
+                                <h2 class="m-0">Jerome Bell</h2>
+                                <h3 class="gray  user-status">User status <span
+                                        class="heading-dot"></span> 20
+                                    minutes</h3>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="assets/web/dot.svg" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <p class="fs-14">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                            Velit officia
+                            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="right-box-wrapper">
+                    <div>
+                        <p class=" fw-500 fs-28 pb-3">You may know</p>
+                    </div>
+                    <div class="right-box-padding cursor-pointer" *ngFor="let x of[1,2,3,4,5]">
+                        <div class="right-box-card">
+                            <div class="right-box-avtar">
+                                <img src="assets/web/right-avtar.svg" alt="" class="avatar-img">
+
+                            </div>
+                            <div>
+                                <p class="m-0 fw-400 fs-16 ">Courtney Herny</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

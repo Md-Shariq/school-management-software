@@ -1,0 +1,208 @@
+<section>
+   <div class="container">
+       <div class=" row profile-wrapper">
+           <div class="col-md-3 profile-img-wrapper">
+               <div>
+                   <button class="btn  bridge-responsive-btn">
+                    <img src="assets/web/Frame.svg" alt="" width="25px" height="25px">
+                   </button>
+               </div>
+               <div class="profile-img">
+                   <img src="assets/web/profile.svg" alt="" class="img-cover">
+               </div>
+               <div class="edit-btn-responsive">
+                    <img src="assets/web/editbtn.svg" alt="" width="25px" height="25px">
+               </div>
+
+           </div>
+           <div class="col-md-9 d-flex  flex-column justify-content-sm-center pr-4 profile-responsive">
+               <div class="d-flex justify-content-between">
+                   <div class="d-flex align-items-center">
+                      <p class="fw-500 fs-25 m-0 pr-0 pr-md-4 pt-2 jennifer-height">Jennifer Lawrence | Alumni</p>
+                       <button class="btn  bridge-btn">Bridge</button>
+                    </div>   
+                    <div class="responsive-hide">
+                           <img src="assets/web/editbtn.svg" alt="" width="25px" height="25px">
+                    </div>
+               </div>
+               <p class="gray fs-14">Goldman Sachs • UCLA</p>
+               <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis optio iusto, dolorum vitae perspiciatis veritatis laborum delectus tempora distinctio totam. Nostrum est labore quam, dicta quo minima itaque fugit voluptatibus quis neque a eveniet, dignissimos, doloribus nihil minus voluptas consectetur. Rem, vel fugiat!</p>
+
+           </div>
+
+
+       </div>
+
+       <div class="row">
+           <div class="col-md-3">
+              <div class="interestes-wrapper">
+                <div class="d-flex justify-content-between align-items-center">
+                  <p class="fs-22 fw-500 m-0">Interests</p>
+                  <button class="btn plus-btn"><img src="assets/web/plus.svg" alt=""></button>
+               </div>   
+               <button type="button" class="btn btn-outline interests-btn">Peolpe</button>
+               <button type="button" class="btn btn-outline interests-btn">Music</button>
+               <button type="button" class="btn btn-outline interests-btn">Finance</button>
+               <button type="button" class="btn btn-outline interests-btn">Consulting</button>
+               <button type="button" class="btn btn-outline interests-btn">Marketing & advertising</button>
+               <button type="button" class="btn btn-outline interests-btn">Public service</button>
+               <button type="button" class="btn btn-outline interests-btn">Food</button>
+               <button type="button" class="btn btn-outline interests-btn">Writing</button>
+               <button type="button" class="btn btn-outline interests-btn">Technology</button>
+
+
+              </div>
+
+           </div>
+           <div class="col-md-9 ">
+               <div class="Experience-wrapper">
+               <div class="d-flex justify-content-between align-items-center mb-3">
+                   <p class="fw-500 fs-25">Experience</p>
+                   <button class="btn plus-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="assets/web/plus.svg" alt=""></button>
+               </div>
+               <div class="nameofproject-wrapper" *ngFor="let x of [1,2,3,4]">
+                   <div  class="d-flex align-items-center">
+                   <div class="project-img-wrapper">
+                       <img src="assets/web/projectimg.svg" alt=""  width="35px" height="35px"> 
+                   </div>
+                   <div>
+                       <p class="m-0 fw-bold fs-16">Name of Project</p>
+                       <p class="fs-14 gray m-0">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia</p>
+                   </div>
+                   </div>
+                   <div>
+                      <img src="assets/web/editbtn.svg" alt="" width="25px" height="25px">
+                   </div>
+                </div>
+    
+                </div>
+
+
+                <div class="Experience-wrapper">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <p class="fw-500 fs-25">Education</p>
+                        <button class="btn plus-btn"><img src="assets/web/plus.svg" alt=""></button>
+                    </div>
+                    <div class="nameofproject-wrapper" *ngFor="let x of [1,2,3,4]">
+                        <div  class="d-flex align-items-center">
+                        <div class="project-img-wrapper">
+                            <img src="assets/web/education.svg" alt=""  width="35px" height="35px"> 
+                        </div>
+                        <div>
+                            <p class="m-0 fw-bold fs-16">Name of Project</p>
+                            <p class="fs-14 gray m-0">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia</p>
+                        </div>
+                        </div>
+                        <div>
+                           <img src="assets/web/editbtn.svg" alt="" width="25px" height="25px">
+                        </div>
+                     </div>
+         
+                     </div>
+                
+                     <div class="interestes-wrapper hide-me">
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="fs-22 fw-500 m-0">Interests</p>
+                          <button class="btn plus-btn"><img src="assets/web/plus.svg" alt=""></button>
+                       </div>   
+                       <button type="button" class="btn btn-outline interests-btn">Peolpe</button>
+                       <button type="button" class="btn btn-outline interests-btn">Music</button>
+                       <button type="button" class="btn btn-outline interests-btn">Finance</button>
+                       <button type="button" class="btn btn-outline interests-btn">Consulting</button>
+                       <button type="button" class="btn btn-outline interests-btn">Marketing & advertising</button>
+                       <button type="button" class="btn btn-outline interests-btn">Public service</button>
+                       <button type="button" class="btn btn-outline interests-btn">Food</button>
+                       <button type="button" class="btn btn-outline interests-btn">Writing</button>
+                       <button type="button" class="btn btn-outline interests-btn">Technology</button>
+        
+        
+                      </div>
+               
+                
+
+
+           </div>
+
+       </div>
+
+
+
+
+
+   </div>
+
+</section>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+       <div class="modal-body">
+           <p class="text-center fw-500 fs-22  py-3 gray-1">Tell us about your work experience!</p>
+        <form  [formGroup]="experienceForm" (ngSubmit)="experienceFormData()" >
+          <p>
+            <mat-form-field appearance="outline">
+              <mat-label class="railway fw-600">Title</mat-label>
+              <input matInput type="text" placeholder="Title" formControlName="title">  
+            </mat-form-field>
+          </p>  
+
+          <p>
+            <mat-form-field appearance="outline">
+              <mat-label class="railway fw-600">Employment</mat-label>
+              <input matInput type="text" placeholder="Employment" formControlName="employment">  
+            </mat-form-field>
+          </p>  
+
+          <p>
+            <mat-form-field appearance="outline">
+              <mat-label class="railway fw-600">Company</mat-label>
+              <input matInput type="text" placeholder="Company" formControlName="company">  
+            </mat-form-field>
+          </p>  
+
+          <p>
+            <mat-form-field appearance="outline">
+              <mat-label class="railway fw-600">Location</mat-label>
+              <input matInput type="text" placeholder="Location" formControlName="location">  
+            </mat-form-field>
+          </p>  
+
+          <mat-checkbox class="example-margin pb-1 railway fs-12 fw-600">I currently work here</mat-checkbox>
+
+          <p class="fs-18 fw-500 gray-1">Start date</p>
+          <div class="d-md-flex justify-content-between">
+              <div>
+                <p>
+                    <mat-form-field appearance="outline">
+                      <mat-label class="railway fw-600">Month</mat-label>
+                      <input matInput type="text" placeholder="Month" formControlName="month">  
+                    </mat-form-field>
+                  </p>  
+              </div>
+             <div>
+                <p>
+                    <mat-form-field appearance="outline">
+                      <mat-label class="railway fw-600">Year</mat-label>
+                      <input matInput type="text" placeholder="Year" formControlName="year">  
+                    </mat-form-field>
+                  </p>  
+             </div>
+
+          </div>
+          <div class="d-flex justify-content-around">
+              <div>
+                  <button class="btn delete-btn">Delete</button>
+              </div>
+              <div>
+                  <button class="btn save-btn">Save</button>
+              </div>
+          </div>
+
+        </form>
+
+       </div>
+      </div>
+    </div>
+  </div>

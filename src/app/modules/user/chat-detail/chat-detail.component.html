@@ -1,0 +1,179 @@
+<div class="pickChat" *ngIf="!chatService.isMessageSelected">
+    <img src="assets/web/chat.svg" alt="">
+    <p class="fw-bold pt-3">Pick a chat and send a message!</p>
+</div>
+
+<div *ngIf="chatService.isMessageSelected">
+    <div class="profile-wrapper">
+        <div class="user-img">
+            <img src="assets/web/area.svg" alt="" class="img-cover">
+        </div>
+        <p class="m-0 fw-500 fs-16">Kristin Watson</p>
+    </div>
+    <div class="message-area">
+        <!--incoming-start-->
+        <div class="d-flex align-items-center">
+            <div class="incoming-msg d-flex align-items-end ">
+                <div class="pb-3 mr-2">
+                    <div class="incoming-img-wrapper">
+                        <img src="assets/web/bridgeuser.svg" alt="" class="incoming-img">
+                    </div>
+                </div>
+                <div>
+                    <div class="incomimg-text">
+                        <p class="m-0 fs-14 fw-400">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Deleniti, accusamus aspernatur. Optio, necessitatibus voluptatibus? Possimus
+                            veniam cupiditate explicabo illum id asperiores dolores, ad impedit perferendis
+                            doloremque! Ratione fugit facere porro voluptatum nihil ullam vitae ipsa culpa
+                            esse, inventore tempore vel!</p>
+                    </div>
+                    <div>
+                        <p class="incoming-time">12:30</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pb-4">
+                <img src="assets/web/More.svg" alt="">
+            </div>
+        </div>
+        <!--incoming-closed-->
+
+        <!--outgoing-start-->
+        <div class="outgoing-msg d-flex justify-content-end ">
+            <div class="outgoing-msg-wrapper d-flex flex-column align-items-end">
+                <div class="d-flex align-items-center">
+                    <div class=" pr-2">
+                        <img src="assets/web/More.svg" alt="">
+                    </div>
+                    <div class="outgoing-text">
+                        <p class="m-0 fs-14 fw-400">Amet minim mollit non deserunt ullamco est sit aliqua
+                            dolor do amet sint. Velit officia
+                            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+                            amet. ia
+                            consequat duis enim velit mollit.</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="incoming-time m-0">04:23</p>
+                </div>
+            </div>
+        </div>
+        <!--outgoing-closed-->
+
+        <!--inciming-start-->
+        <div class="d-flex align-items-center">
+            <div class="incoming-msg d-flex align-items-end ">
+                <div class="pb-3 mr-2">
+                    <div class="incoming-img-wrapper">
+                        <img src="assets/web/bridgeuser.svg" alt="" class="incoming-img">
+                    </div>
+                </div>
+                <div>
+                    <div class="incomimg-text">
+                        <p class="m-0 fs-14 fw-400">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Deleniti, accusamus aspernatur. Optio, necessitatibus voluptatibus? Possimus
+                            veniam cupiditate explicabo illum id asperiores dolores, ad impedit perferendis
+                            doloremque! Ratione fugit facere porro voluptatum nihil ullam vitae ipsa culpa
+                            esse, inventore tempore vel!</p>
+                    </div>
+                    <div>
+                        <p class="incoming-time">12:30</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pb-4">
+                <img src="assets/web/More.svg" alt="">
+            </div>
+        </div>
+        <!--incoming-closed-->
+
+        <!--outgoing-start-->
+        <div class="outgoing-msg d-flex justify-content-end ">
+            <div class="outgoing-msg-wrapper d-flex flex-column align-items-end">
+                <div class="d-flex align-items-center">
+                    <div class=" pr-2">
+                        <img src="assets/web/More.svg" alt="">
+                    </div>
+                    <div class="outgoing-text">
+                        <p class="m-0 fs-14 fw-400">Amet minim mollit non deserunt ullamco est sit aliqua
+                            dolor do amet sint. Velit officia
+                            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+                            amet. ia
+                            consequat duis enim velit mollit.</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="incoming-time m-0">04:23</p>
+                </div>
+            </div>
+        </div>
+        <!--outgoing-closed-->
+
+        <!--inciming-start-->
+        <div class="d-flex align-items-center">
+            <div class="incoming-msg d-flex align-items-end ">
+                <div class="pb-3 mr-2">
+                    <div class="incoming-img-wrapper">
+                        <img src="assets/web/bridgeuser.svg" alt="" class="incoming-img">
+                    </div>
+                </div>
+                <div>
+                    <div class="incomimg-text">
+                        <p class="m-0 fs-14 fw-400">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Deleniti, accusamus aspernatur. Optio, necessitatibus voluptatibus? Possimus
+                            veniam cupiditate explicabo illum id asperiores dolores, ad impedit perferendis
+                            doloremque! Ratione fugit facere porro voluptatum nihil ullam vitae ipsa culpa
+                            esse, inventore tempore vel!</p>
+                    </div>
+                    <div>
+                        <p class="incoming-time">12:30</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pb-4">
+                <img src="assets/web/More.svg" alt="">
+            </div>
+        </div>
+        <!--incoming-closed-->
+
+        <!--outgoing-start-->
+        <div class="outgoing-msg d-flex justify-content-end ">
+            <div class="outgoing-msg-wrapper d-flex flex-column align-items-end">
+                <div class="d-flex align-items-center">
+                    <div class=" pr-2">
+                        <img src="assets/web/More.svg" alt="">
+                    </div>
+                    <div class="outgoing-text">
+                        <p class="m-0 fs-14 fw-400">Amet minim mollit non deserunt ullamco est sit aliqua
+                            dolor do amet sint. Velit officia
+                            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+                            amet. ia
+                            consequat duis enim velit mollit.</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="incoming-time m-0">04:23</p>
+                </div>
+            </div>
+        </div>
+        <!--outgoing-closed-->
+
+
+
+
+
+    </div>
+
+    <div class="send-area">
+        <div class="send-wrapper">
+            <input type="text" class="send-text" placeholder="Put some text here">
+            <img src="assets/web/Smiles.svg" alt="" width="28px" height="28px">
+            <img src="assets/web/sendmsg.svg" alt="" width="20px" height="20px">
+        </div>
+
+
+    </div>
+
+
+
+</div>

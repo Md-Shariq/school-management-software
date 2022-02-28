@@ -1,0 +1,56 @@
+.contact-list {
+    width: 100%;
+    background-color: #d5daf5;
+    height: calc(100vh - 36px);
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+  }
+  .contact-list::-webkit-scrollbar {
+    /* WebKit */
+    width: 0;
+    height: 0;
+  }
+  .message-heading {
+    font-weight: 500;
+  }
+  .message-contact {
+    width: 100%;
+    height: 70px;
+    position: relative;
+    border-radius: 6px;
+    background-color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  .contact-img {
+    width: 43px;
+    height: 43px;
+    border-radius: 50px;
+    margin-right: 20px;
+    overflow: hidden;
+  }
+
+  .contact-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+  }
+  .time {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    color: gray;
+    font-weight: 500;
+    font-size: 10px;
+  }
+
+    
+  .active {
+    background-color: #e5f8f4 !important;
+  }
